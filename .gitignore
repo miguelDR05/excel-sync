@@ -1,0 +1,90 @@
+# === Python: Entornos virtuales ===
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# === Python: Archivos compilados ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyd
+
+# === Archivos de logs y ejecución ===
+*.log
+*.out
+*.pid
+
+# === Archivos de configuración de entorno ===
+.env
+.env.*
+!.env.example  # si quieres mantener un archivo de ejemplo
+
+# === Herramientas de testing / coverage ===
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+htmlcov/
+
+# === Pytest ===
+.pytest_cache/
+.tox/
+test-results/
+
+# === Herramientas de análisis estático ===
+.mypy_cache/
+.dmypy.json
+pylint-report.txt
+
+# === Documentación generada ===
+docs/_build/
+*.pdf
+
+# === IDEs y editores ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === Archivos temporales del sistema ===
+*.swp
+*.bak
+*.tmp
+*.orig
+*.log
+*.rej
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Docker (si usas contenedores) ===
+*.dockerfile
+docker-compose.override.yml
+**/.dockerignore
+
+# === SQLite (si usas base de datos local) ===
+*.sqlite3
+*.db
+
+# === Otros formatos a ignorar ===
+*.tar.gz
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# === Git ===
+.git/
+.gitignore~
+*.orig
+
+# === FastAPI-specific (opcional) ===
+*.uvicorn.log
